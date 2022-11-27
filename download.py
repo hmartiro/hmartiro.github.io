@@ -166,6 +166,7 @@ def rewrite_html(output_dir: Path) -> None:
     html_data += '\n<link rel="stylesheet" href="styles.css" />'
 
     # Add favicon data
+    # TODO: Probably kill?
     html_data += """\n\n
     <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
